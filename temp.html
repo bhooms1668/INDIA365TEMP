@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeritageVerse</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+
+body{
+background:linear-gradient(rgba(45,0,0,.75),rgba(45,0,0,.75)),
+url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1800&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+min-height:100vh;
+color:#f5d28a;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:25px 60px;
+}
+
+nav a{
+color:#f5d28a;
+text-decoration:none;
+font-size:18px;
+margin:0 15px;
+}
+
+.hero{
+text-align:center;
+padding-top:80px;
+}
+
+h1{
+font-size:72px;
+color:#f5d28a;
+}
+
+.subtitle{
+font-size:24px;
+margin-top:10px;
+color:#fff3d5;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:70px;
+padding:20px;
+}
+
+.card{
+width:280px;
+padding:40px 25px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+border-radius:25px;
+border:1px solid rgba(255,215,0,.4);
+text-align:center;
+text-decoration:none;
+color:white;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+box-shadow:0 0 30px rgba(255,215,0,.7);
+}
+
+.icon{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.card h2{
+margin-bottom:15px;
+color:#f5d28a;
+}
+
+.homeBtn{
+display:inline-block;
+margin-top:40px;
+padding:12px 30px;
+background:#f5d28a;
+color:maroon;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><b>HeritageVerse</b></div>
+<div>
+<a href="#">नमस्ते</a>
+</div>
+</nav>
+
+<div class="hero">
+
+<h1>INDIA365</h1>
+<p class="subtitle">AI Powered Cultural Heritage Platform</p>
+
+<div class="cards" id="features">
+
+<a class="card" href="https://heritageverse.onrender.com/monument" target="_blank">
+<div class="icon">🏛️</div>
+<h2>Monument AI</h2>
+<p>Identify monuments instantly using AI vision.</p>
+</a>
+
+<a class="card" href="https://heritageverse.onrender.com/translator" target="_blank">
+<div class="icon">🎙️</div>
+<h2>Voice Translator</h2>
+<p>Translate heritage content into Indian languages.</p>
+</a>
+
+<a class="card" href="https://heritageverse.onrender.com/photobooth" target="_blank">
+<div class="icon">📸</div>
+<h2>CulturaCam</h2>
+<p>Create heritage themed photos instantly.</p>
+</a>
+
+<a class="card" href="https://heritageverse.onrender.com/map" target="_blank">
+<div class="icon">🗺️</div>
+<h2>Heritage Map</h2>
+<p>Explore monuments on an interactive cultural map.</p>
+</a>
+
+
+</body>
+</html>
